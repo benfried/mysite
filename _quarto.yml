@@ -1,0 +1,23 @@
+project:
+  type: website
+  pre-render: ./prerender
+
+
+website:
+  title: "mysite"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  sidebar:
+    style: "floating"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+metadata-files:
+    - sidebar.yml

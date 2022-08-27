@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+# About this site
+
+This is a site, like any other. Only more so.
