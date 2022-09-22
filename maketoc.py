@@ -24,9 +24,7 @@ def createtocfromdir(dir, indentlevel):
     return retval
 
 tocbody = createtocfromdir(".", 6)
-print(f"tocbody({len(tocbody)}):\n--\n")
-print(tocbody)
-print("--")
+
 if len(tocbody) < 4:
     print("exiting")
     sys.exit()

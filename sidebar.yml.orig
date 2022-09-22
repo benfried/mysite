@@ -1,5 +1,6 @@
 website:
   sidebar:
     contents:
-      - 01intro.md
+      - 20220827Intro.md
+      - 20220827Workflow.md
 
