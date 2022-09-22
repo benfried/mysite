@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-99.9.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>mysite - My workflow for this site</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">mysite</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">My workflow for this site</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20220827how.html" class="sidebar-item-text sidebar-link active">My workflow for this site</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20220827intro.html" class="sidebar-item-text sidebar-link">Introduction</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#goals" id="toc-goals" class="nav-link active" data-scroll-target="#goals">Goals</a></li>
+  <li><a href="#authoring" id="toc-authoring" class="nav-link" data-scroll-target="#authoring">Authoring</a></li>
+  <li><a href="#emacs-hacks" id="toc-emacs-hacks" class="nav-link" data-scroll-target="#emacs-hacks">Emacs hacks</a></li>
+  <li><a href="#heres-the-emacs-lisp-code" id="toc-heres-the-emacs-lisp-code" class="nav-link" data-scroll-target="#heres-the-emacs-lisp-code">Here's the emacs lisp code</a></li>
+  <li><a href="#other-bits-of-the-authoring-workflow" id="toc-other-bits-of-the-authoring-workflow" class="nav-link" data-scroll-target="#other-bits-of-the-authoring-workflow">Other bits of the authoring workflow</a></li>
+  <li><a href="#prerender-script" id="toc-prerender-script" class="nav-link" data-scroll-target="#prerender-script">Prerender script</a></li>
+  <li><a href="#file-order" id="toc-file-order" class="nav-link" data-scroll-target="#file-order">File order</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">My workflow for this site</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="goals" class="level3">
+<h3 class="anchored" data-anchor-id="goals">Goals</h3>
+<p>I found out about quarto after learning about <a href="https://nbdev.fast.ai">nbdev</a>, which seems like a great all-in way to use Jupyter notebooks as a REPL+literate programming environment for python.</p>
+<p>On <code>nbdev</code>: There's a lot to like there. All too often I find myself prototyping something in a notebook, then using some combination of export as python script or copy and paste to take what I figured out in the notebook and turn it into a standalone script. That process is often error-prone and it always feels more time-consuming than it should be.</p>
+<p>In addition, as I continue to learn more about deep learning, the notebook workflow makes even more sense. The iteration cycle in ML is even more REPL-y than in other types of programming, as you're likely to have some expensive data operations up front that you want to experiment with without having to pay the price of those data loads etc every time through.</p>
+<p>On top of that, as a full-on hobbyist programmer, writing usually just for myself, or occasionally for my family (<em>very</em> occasionally…) the literate programming element scratches another important itch: I tend to start things, drop them for a long time, and then come back much later, and I don't want to continue to rely on memory of how something works, and notebooks are great for this; nbdev is even better, as it can produce what I think are very pretty sites from your notebooks.</p>
+<p>This all pointed me to <a href="https://quarto.org">quarto</a>, which is the publishing system used by nbdev. And it turned out that quarto had nearly everything I wanted in a publishing system: it generates fully static sites, its sites look good (to my eyes at least) out of the box, and it makes generating pages that include the output of cells, code, etc, very easy.</p>
+</section>
+<section id="authoring" class="level3">
+<h3 class="anchored" data-anchor-id="authoring">Authoring</h3>
+<p>When I write, I write in <a href="https://orgmode.org">org</a>, mostly. While there are times that an outline is not the right scaffolding for what I'm writing, but those times are rare, and I have come to accept, over the years, that if I can't lay out an outline of what I want to think, it may be because I haven't really thought things through.</p>
+<p>They're great for literate programming, but I was not willing to do pure writing in Jupyter notebooks (if I had been, I could probably have done this all with only nbdev, which would have made a number of things easy). Literate programming is useful when you want your code to have well-written documentation, but if there's not going to be any code, the editing capabilities of Jupyter+chrome or Jupyter+vscode, using straight markdown, are, well, pretty weak.</p>
+<p>I've been using GNU Emacs since 1984 or so; I know it really well, and for editing, it feels like it's built into my fingers. Especially with org mode, which makes navigation, manipulating structure, and lightweight formatting joyfully easy.</p>
+<p>It helps that I'm comfortable mucking around in emacs lisp as needed to make it do what I want. Honestly, sometimes the mucking around in emacs lisp is the actual goal; I think my .emacs is my most frequently changed file.</p>
+</section>
+<section id="emacs-hacks" class="level3">
+<h3 class="anchored" data-anchor-id="emacs-hacks">Emacs hacks</h3>
+<p>I did some emacs hacking to make good-looking markdown files out of org files.</p>
+<p>My first observation is that Org's default markdown exporter is, well, crap. You can find a number of alternatives, but I quickly discovered that pandoc does a really outstanding job, at least for the org files I've been writing. Note that I haven't yet used org tables, or the org-babel literate programming features, or dozens of other amazing features in org mode.</p>
+<p>However, it turns out that by default, pandoc does not pull the <code>#+title</code> info from the org file to populate the markdown frontmatter (which is supposed to look like:</p>
+<pre class="example"><code>---
+title: a document
+---</code></pre>
+<p>But, because, of course it does, pandoc has a templating system built in, and fixing markdown output to include properly formatted frontmatter was a matter of making a custom markdown template with a small change from default. Honestly, I'm not sure why this is not a bug, but it's easy to specify a local template.</p>
+<p>Quarto can run scripts before or after your site is rendered, and I'd initially thought that would run whenever an org file was updated in the content tree. But it turns out that the quarto change watcher only looks for changes to or additions of file types it knows about. But I found another use for pre-render scripts, which I'll share in a minute.</p>
+<p>So instead, I wrote an emacs function that gets called whenever an org file is saved. It figures out if the org file is part of a quarto site, and if it is, it runs pandoc, using the appropriate template, to generate a markdown file. I've included it below. I'll put it up in github, perhaps in a separate repo, because others might find it useful.</p>
+<p>This is nice because when quarto is run in preview mode, it watches the site directory, and re-renders the site whenever a new markdown file is added, or an existing one is changed. Your browser just reloads with the new contant, like magic.</p>
+<p><em>Note to self:</em> should I be worried about the public image that comes from publishing emacs lisp code? This is not a new hotness, like Rust or Typescript.</p>
+</section>
+<section id="heres-the-emacs-lisp-code" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="heres-the-emacs-lisp-code">Here's the emacs lisp code</h3>
+<div class="column-body-outset">
+<div class="sourceCode" id="cb2" data-org-language="emacs-lisp"><pre class="sourceCode commonlisp code-with-copy"><code class="sourceCode commonlisp"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">;;; below should perhaps go in a separate libary, but whatever.</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">;;; an after-save-hook that uses pandoc to make a markdown version of org files after save.</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">;;; It uses a template I created that preserves the title in a format that quarto likes</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>(defcustom pandoc-binary <span class="st">"pandoc"</span> <span class="st">"Location of pandoc binary"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="bu">:type</span> 'string)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>(defcustom markdown-template (expand-file-name <span class="st">"~/lib/pandoc-org-template"</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Location of custom pandoc markdown template"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="bu">:type</span> 'string)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>(defcustom always-convert-org-to-md <span class="kw">nil</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="st">"If non-nil, auto-markdown-after-save will convert the org file to md regardless of</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="st">whether or not there is a _quarto.yml file in the current directory"</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="bu">:type</span> 'boolean)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> auto-markdown-after-save </span>()</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Use Pandoc to auto-convert an org file to markdown every time it's saved; </span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="st">Set `after-save-hook` in org mode to this value if you use quarto with org"</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  (interactive)</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">when</span> (<span class="kw">and</span> (<span class="kw">eq</span> major-mode 'org-mode)</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>         (<span class="kw">or</span> always-convert-org-to-md (file-exists-p <span class="st">"_quarto.yml"</span>)))</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    (<span class="kw">let*</span> ((errbuf (get-buffer-create <span class="st">"*Pandoc Errors*"</span>))</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>       (ofile (concat (file-name-sans-extension (buffer-file-name)) <span class="st">".md"</span>)))</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>      (message <span class="st">"converting org file to markdown..."</span>)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>      (call-process pandoc-binary <span class="kw">nil</span> errbuf <span class="kw">nil</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>            (concat <span class="st">"--template="</span> markdown-template)</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>            <span class="st">"-o"</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>            ofile</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>            (buffer-file-name))</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>      (message <span class="st">"converting org file to markdown...done"</span>))))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="other-bits-of-the-authoring-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="other-bits-of-the-authoring-workflow">Other bits of the authoring workflow</h3>
+<p>I really like the left-hand-side site navigation tree that quarto displays, but it would appear that it's not generated automatically, it has to be manually created. There's a yml format for this and other site metadata.</p>
+<p>I wrote a prerender script (remmeber those, from a few paragraphs ago?).</p>
+</section>
+<section id="prerender-script" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="prerender-script">Prerender script</h3>
+<p>Don't judge. This does not have robust error handling, and has a bunch of other sharp edges. That's OK. The author is the only customer, and he forgives himself in advance for any shortcomings.</p>
+<div class="column-body-outset">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/usr/bin/env python</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os, sys</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>tocfile <span class="op">=</span> <span class="st">'sidebar.yml'</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>newtocfile <span class="op">=</span> tocfile <span class="op">+</span> <span class="st">'.new'</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>backuptocfile <span class="op">=</span> tocfile <span class="op">+</span> <span class="st">'.orig'</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> createtocfromdir(<span class="bu">dir</span>, indentlevel):</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    retval <span class="op">=</span> <span class="st">''</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    path <span class="op">=</span> Path(<span class="bu">dir</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> p <span class="kw">in</span> <span class="bu">sorted</span>(path.iterdir()):</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> p.name[<span class="dv">0</span>] <span class="op">==</span> <span class="st">'.'</span> <span class="kw">or</span> p.name[<span class="dv">0</span>] <span class="op">==</span> <span class="st">'_'</span>:</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>            <span class="cf">pass</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> p.suffix <span class="op">==</span> <span class="st">".md"</span>:</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>            retval <span class="op">+=</span> <span class="st">' '</span> <span class="op">*</span> indentlevel <span class="op">+</span> <span class="st">'- '</span> <span class="op">+</span> (<span class="bu">str</span>(p)) <span class="op">+</span> <span class="st">'</span><span class="ch">\n</span><span class="st">'</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> p.is_dir():</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>            retval <span class="op">+=</span> <span class="st">' '</span> <span class="op">*</span> indentlevel <span class="op">+</span> <span class="st">'- section: '</span> <span class="op">+</span> (<span class="bu">str</span>(p)) <span class="op">+</span> <span class="st">'</span><span class="ch">\n</span><span class="st">'</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>            retval <span class="op">+=</span> <span class="st">' '</span> <span class="op">*</span> (indentlevel<span class="op">+</span><span class="dv">2</span>) <span class="op">+</span> <span class="st">'contents:'</span> <span class="op">+</span> <span class="st">'</span><span class="ch">\n</span><span class="st">'</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>            retval <span class="op">+=</span> createtocfromdir(p, indentlevel<span class="op">+</span><span class="dv">2</span>)</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>            <span class="cf">pass</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> retval</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>tocbody <span class="op">=</span> createtocfromdir(<span class="st">"."</span>, <span class="dv">6</span>)</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">len</span>(tocbody) <span class="op">&lt;</span> <span class="dv">4</span>:</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"exiting"</span>)</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>    sys.exit()</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(newtocfile, <span class="st">"w"</span>) <span class="im">as</span> f:</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"website:"</span>,<span class="bu">file</span><span class="op">=</span>f)</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"  sidebar:"</span>, <span class="bu">file</span><span class="op">=</span>f)</span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"    contents:"</span>, <span class="bu">file</span><span class="op">=</span>f)</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(createtocfromdir(<span class="st">"."</span>, <span class="dv">6</span>), <span class="bu">file</span><span class="op">=</span>f)</span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>os.rename(tocfile, backuptocfile)</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>os.rename(newtocfile, tocfile)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="file-order" class="level3">
+<h3 class="anchored" data-anchor-id="file-order">File order</h3>
+<p>File names appear in lexicographic order in the quarto table of contents, so I prefix file names with a number as a way of manually setting the ordering; right now I'm using YYYYMMDDfile.org, based on the thought that I'm trying to do something a bit bloggish, or at least chronologically sequential.</p>
+<p>nbdev recommends its users just use two-digit numerics as prefixes for setting file order. If I end up writing things that are more like articles than journal entries, I will try that.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
