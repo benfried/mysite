@@ -1,0 +1,48 @@
+---
+title: Reviews and Reviewing
+---
+
+### Why write reviews?
+
+I suppose that this endeavor is as egotistical as they come. Why are my
+thoughts and reactions worth saving, let alone sharing? There are a few
+things that motivate me.
+
+1.  Very flatteringly, a number of people have heard that I\'m going to
+    the [New York Film Festival](https://www.filmlinc.org/nyff2022/) and
+    they want to know what I saw and what I recommend. When I mention
+    that I do cardio in front of the TV, and so have seen a ton of
+    what\'s streaming, I get similar questions.
+
+2.  As I\'ve had time I did not once have to think about what I\'ve
+    watched, I\'ve been disappointed with the amount of thought I\'ve
+    put into what I\'ve seen.
+
+### What makes a meaningful review?
+
+I may be deeply unenlightened, but for me, art is something that
+produces an emotional reaction, and the purpose of writing about it is
+to memorialize and elucidate that reaction, and delve into why the
+viewer had that reaction.
+
+That\'s what motivates me more than anything: a desire to record how
+something I experienced made me feel. There\'s something about the power
+of the memory of an emotion that reaches past the psyche and into a more
+primitive place, or maybe it\'s the child-brain we all bury. I feel (ha)
+that I can be more exact about what that feeling is, and where its power
+comes from, in the written word, and that will make for a better
+referral for friends or just a reminder of my own experience.
+
+And once I have those feelings down, it seems like the writing would be
+incomplete without going into *how* the work did what it did to me. Why
+did I feel that way? Why was it that the thing it did that made me feel
+that way had that effect? Why to that? And so on with the five whys.
+
+\"Reviews\" (if that\'s even the right word) are only meaningful if they
+start with that personal perspective.
+
+A friend, who went on to become a muckity-muck in the art world, but at
+the time was a budding journalism student, once told me that \"art is
+anything that makes you think.\" He loved to say outrageous things, and
+maybe this was one of them, but now, 30 years after he first said it to
+me, I am more accepting of his definition than I was at the time.

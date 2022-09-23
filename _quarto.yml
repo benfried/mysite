@@ -1,10 +1,10 @@
 project:
   type: website
-  pre-render: ./prerender
-
+#  pre-render: ./prerender
 
 website:
   title: "mysite"
+  favicon: assets/safari-pinned-tab.svg
   navbar:
     left:
       - href: index.qmd
@@ -12,6 +12,7 @@ website:
       - about.qmd
   sidebar:
     style: "floating"
+    contents: auto
 
 format:
   html:
@@ -19,5 +20,5 @@ format:
     css: styles.css
     toc: true
 
-metadata-files:
-    - sidebar.yml
+#metadata-files:
+#    - sidebar.yml

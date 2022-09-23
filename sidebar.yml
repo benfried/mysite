@@ -3,4 +3,19 @@ website:
     contents:
       - 20220827Intro.md
       - 20220827Workflow.md
+      - section: assets
+        contents:
+      - section: reviews
+        contents:
+        - reviews/20220922onreviews.md
+        - section: reviews/20220922onreviews_files
+          contents:
+          - section: reviews/20220922onreviews_files/libs
+            contents:
+            - section: reviews/20220922onreviews_files/libs/bootstrap
+              contents:
+            - section: reviews/20220922onreviews_files/libs/clipboard
+              contents:
+            - section: reviews/20220922onreviews_files/libs/quarto-html
+              contents:
 
