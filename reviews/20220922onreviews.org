@@ -1,10 +1,17 @@
-#+title: Reviews and Reviewing
 
+---
+title: On Reviews
+description: something
+---
+
+#+title: Reviews and Reviewing 
+ 
 *** Why write reviews?
+ 
+It may be that subconsciously it's an ego trip to suppose that my
+thoughts and reactions are worth saving and sharing, but there were a
+few things that motivated me
 
-I suppose that this endeavor is as egotistical as they come. Why are my
-thoughts and reactions worth saving, let alone sharing? There are a few
-things that motivate me.
 
 1. Very flatteringly, a number of people have heard that I'm going to
    the [[https://www.filmlinc.org/nyff2022/][New York Film Festival]] and they want to know what I saw and what
