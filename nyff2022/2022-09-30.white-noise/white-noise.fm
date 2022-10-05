@@ -1,0 +1,12 @@
+---
+title: "White Noise"
+description: "Opening Night: Noah Baumbach's adaptation of the Don DeLillo novel"
+date: "2022-09-30"
+categories: ["Tentpole", "Drama", "US"]
+image: poster.jpg
+format:
+  html:
+    toc: true
+    contents: false
+# engine: knitr
+---

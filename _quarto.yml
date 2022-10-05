@@ -1,18 +1,27 @@
 project:
   type: website
+#  don't need the pre-render script to generate ToCs any more
+#  now that there's the "contents: auto" directive 
 #  pre-render: ./prerender
 
 website:
-  title: "mysite"
+  title: "Ben Fried"
   favicon: assets/safari-pinned-tab.svg
+  open-graph:
+    locale: en-US
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: nyff2022.html
+        text: "The 2022 New York Film Festival"
+  
   sidebar:
     style: "floating"
-    contents: auto
+    contents: 
+      - auto: "/*.md"
+      - auto: "/*.qmd"
+      - auto: reviews/*.md
 
 format:
   html:
