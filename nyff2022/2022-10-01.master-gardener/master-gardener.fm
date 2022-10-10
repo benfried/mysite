@@ -1,0 +1,11 @@
+---
+title: "Master Gardener"
+description: "Paul Schrader's story of an unusual horticulturalist"
+date: "2022-10-01"
+categories: ["Drama", "Suspense", "US"]
+image: poster.jpg
+format:
+  html:
+    toc: true
+#    contents: false
+---

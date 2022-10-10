@@ -1,0 +1,12 @@
+---
+title: "Till"
+description: "The true story of Mamie Till
+Mobley's pursuit of justice for her son Emmett."
+date: "2022-10-01"
+categories: ["Historical Drama", "US"]
+image: poster.jpg
+format:
+  html:
+    toc: true
+#    contents: false
+---

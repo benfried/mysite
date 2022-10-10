@@ -8,5 +8,4 @@ format:
   html:
     toc: true
     contents: false
-# engine: knitr
 ---
