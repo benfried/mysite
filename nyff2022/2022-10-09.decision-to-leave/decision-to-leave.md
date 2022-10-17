@@ -1,6 +1,6 @@
 ---
 title: "Decision to Leave"
-description: "Park Chan-wook's detective story"
+description: "Park Chan-wook's detective / femme fatale story"
 date: "2022-10-09"
 categories: ["See it", "Drama", "Crime", "Mystery", "Noir", "South Korea"]
 image: poster.jpg
@@ -25,10 +25,11 @@ tongue in cheek, it was completely accurate.
 
 # Thoughts
 
-I was stunned at the visual composition, cinematography (shots taken
-from the perspective of the dead victims, great treatments of memories,
+I was stunned at the visual composition, cinematography (some shots
+taken from the perspective of the corpses, great treatments of memories,
 so, so much more). And a plot with a femme fatale but one who is
-genuinely three-dimensional, not motivated solely by greed. So many
-metaphors. So much symbolism. In a story that pulls you along.
+three-dimensional, not motivated solely by greed. So many metaphors. So
+much symbolism. This is a 2:18 movie that doesn't lose your interest for
+one second.
 
 ![*Director Park Chan-Wook and Star Park Hae-il*](PXL_20221009_211201261.NIGHT.jpg)

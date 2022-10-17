@@ -22,42 +22,36 @@ title: White Noise
 
 See it. It\'s not really like anything else. Excellent performances.
 Many striking, unforgettable scenes. The closing credits alone are
-almost worth the price of admission. My one quibble is that the dialogue
-feels stilted and artificial at times, particularly at the beginning.
-Maybe it got better or maybe I adjusted.
+almost worth the price of admission. My biggest complaint is that the
+dialogue feels stilted and artificial at times, particularly at the
+beginning. Maybe it got better or maybe I adjusted. Or maybe it's
+intentional; this is a story about people who hide behind
+words.
 
 <img src="poster.jpg" width="200"/>
 
 :::
 
-## Disorganized Notes
+## The \"white noise\" --- people talking over each other
 
-### Color palette - bright colors in super market
+Baumbach gives us "white noise" in nearly every group scene. At meals,
+especially, there are many simultaneous conversations. In the discussion
+after the movie one of the actors described it as "not A-B A-B but
+A-A-A-A". In some ways it reminded me of Altman's layering of sound, but
+the effect was more confusing. I thought this was a good touch, and it
+reminded me more than a little of my own family, which can feel like five people
+having six different conversations, and nobody knows everything that's
+being said.
 
-### Adam Driver looking older - belly / low pants, chin tucked agains neck
+## Thoughts
 
-### amazing closing credits sequence / choreography
+In a way almost reminiscent of Wes Anderson, the movie is kind of held
+aloft by a handful of standout scenes. There's a dinner scene where
+Driver's character demonstrates a combination of denial and bargaining
+that's both very funny and all too reminiscent of the way many people
+behaved in March of 2020. Driver and Cheadle do a tandem lecture in a
+lecture hall-in-the-round (are there really such things) that was kind
+of amazing. The final act and the closing credits are probably worth the
+price of admission.
 
-### few strong set pieces that are like tent poles
-
-1.  dinner after the toxic spill (?)
-
-2.  joint lecture on Elvis & Hitler with Cheadle
-
-3.  Closing scenes in motel & hospital
-
-### Denial about toxic spill
-
-### Stiltedness of much of the dialogue
-
-Meant to be caricature of hyper-literate academics, hiding behind their
-vocabulary?
-
-### The \"white noise\" --- people talking over each other
-
-Reminded me a little of Altman, but the effect on me is much more one of
-confusion. I thought this was a good touch, and it reminded me of my own
-dinner table, five people seeming having six different conversations,
-and it overwhelms me and I can\'t understand any of it.
-
-### [*IMDB Entry*](https://www.imdb.com/title/tt6160448/)
+![*Don Cheadle, Greta Gerwig, and Adam Driver*](PXL_20221001_005117442.NIGHT.jpg)

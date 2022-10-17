@@ -16,12 +16,12 @@ website:
       - href: nyff2022.html
         text: "The 2022 New York Film Festival"
   
-  sidebar:
-    style: "floating"
-    contents: 
-      - auto: "/*.md"
-      - auto: "/*.qmd"
-      - auto: reviews/*.md
+#  sidebar:
+#    style: "floating"
+#    contents: 
+#      - auto: "/*.md"
+#      - auto: "/*.qmd"
+#      - auto: reviews/*.md
 
 format:
   html:

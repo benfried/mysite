@@ -1,0 +1,18 @@
+---
+title: "Armageddon Time"
+description: "The Story of the two *NY Times* reporters who broke the
+  Harvey Weinstein story and helped start #metoo"
+date: "2022-10-12"
+categories: ["See it", "Drama", "Biographical Drama", "US"]
+image: poster.jpg
+format:
+  html:
+    toc: true
+    sidebar: false
+---
+::: {layout=[[75,25]]}
+# BLUF
+
+<img src="poster.jpg" width="200"/>
+:::
+
