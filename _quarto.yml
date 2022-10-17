@@ -23,6 +23,9 @@ website:
 #      - auto: "/*.qmd"
 #      - auto: reviews/*.md
 
+execute:
+  freeze: auto
+
 format:
   html:
     theme: cosmo
