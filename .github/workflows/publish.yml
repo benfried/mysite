@@ -21,6 +21,7 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          GITHUB_EMAIL: ben.fried@gmail.com
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
