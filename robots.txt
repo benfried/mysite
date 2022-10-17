@@ -1,0 +1,1 @@
+Sitemap: https://benfried.github.io/mysite/sitemap.xml
