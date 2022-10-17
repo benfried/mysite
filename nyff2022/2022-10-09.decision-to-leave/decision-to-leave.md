@@ -2,7 +2,7 @@
 title: "Decision to Leave"
 description: "Park Chan-wook's detective story"
 date: "2022-10-09"
-categories: ["Drama", "Crime", "Mystery", "Noir", "South Korea"]
+categories: ["See it", "Drama", "Crime", "Mystery", "Noir", "South Korea"]
 image: poster.jpg
 format:
   html:

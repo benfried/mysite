@@ -2,7 +2,7 @@
 title: "White Noise"
 description: "Opening Night: Noah Baumbach's adaptation of the Don DeLillo novel"
 date: "2022-09-30"
-categories: ["Tentpole", "Drama", "US"]
+categories: ["Drama", "US", "See it"]
 image: poster.jpg
 format:
   html:
@@ -10,7 +10,15 @@ format:
     contents: false
 ---
 
-** White Noise
+** BLUF
+
+See it. It's not really like anything else. Excellent performances. Many
+striking, unforgettable scenes. The closing credits alone are almost
+worth the price of admission. My one quibble is that the dialogue feels
+stilted and artificial at times, particularly at the beginning. Maybe it
+got better or maybe I adjusted.
+
+** Disorganized Notes
 
 
 *** Color palette - bright colors in super market
