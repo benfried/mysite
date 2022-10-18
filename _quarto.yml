@@ -11,7 +11,7 @@ website:
     locale: en-US
   navbar:
     left:
-      - href: index.qmd
+      - href: index.md
         text: Home
       - href: nyff2022.html
         text: "The 2022 New York Film Festival"
